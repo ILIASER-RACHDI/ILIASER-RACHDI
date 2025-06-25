@@ -4,15 +4,16 @@ function switchLanguage(lang) {
 
     let newPath;
     if (currentPath.includes('index')) {
-        newPath = lang === 'fr' ? '/portfolio/index.html' : `/portfolio/${lang}/index.html`;
+        newPath = lang === 'fr' ? '/ILIASER-RACHDI/index.html' : `/ILIASER-RACHDI/${lang}/index.html`;
     } else if (currentPath.includes('resume')) {
-        newPath = lang === 'fr' ? '/portfolio/resume.html' : `/portfolio/${lang}/resume.html`;
+        newPath = lang === 'fr' ? '/ILIASER-RACHDI/resume.html' : `/ILIASER-RACHDI/${lang}/resume.html`;
     } else {
-        newPath = lang === 'fr' ? '/portfolio/index.html' : `/portfolio/${lang}/index.html`;
+        newPath = lang === 'fr' ? '/ILIASER-RACHDI/index.html' : `/ILIASER-RACHDI/${lang}/index.html`;
     }
 
     window.location.href = newPath;
 }
+
 
 function setInitialLanguage() {
     const userLang = navigator.language || navigator.userLanguage;

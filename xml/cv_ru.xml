@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CV SYSTEM "../dtd/cv.dtd">
+<CV lang="ru">
+    <intitule>
+        <titre>Инженер-программист (обучение по контракту)</titre>
+        <commentaire>Хороший опыт в области ИТ с навыками в объектно-ориентированных языках программирования, базах данных, веб-разработке и управлении проектами.</commentaire>
+    </intitule>
+    <etat_civil nom='ЭР-РАШДИ' prenom='Илиас' dateNaissance='2001-07-16' age='23'>
+        <adresse numero="22" rue="rue de Strasbourg" ville="Эпине-сюр-Сен" cp="93800"></adresse>
+        <telephone>0758193255</telephone>
+        <email>iliaserrachdi@gmail.com</email>
+        <permis titulaire='oui' type='B'></permis>
+    </etat_civil>
+    <expPro>
+        <exp dateDebut='09/2024'>
+            <poste>Software Craftsman (стажировка)</poste>
+            <entreprise>Не указано</entreprise>
+            <description>Разработка надежных решений на Java и Angular, CI с Jenkins, контейнеризация с Docker и оркестрация с Kubernetes.</description>
+        </exp>
+        <exp dateDebut='07/2023' dateFin='08/2023'>
+            <poste>Разработчик</poste>
+            <entreprise>UNIVERSALISA - Марокко</entreprise>
+            <description>Разработка новых функций backend с использованием Spring Boot. Проведение тестов для обеспечения соответствия.</description>
+        </exp>
+    </expPro>
+    <formations>
+        <formation intituleFormation="Инженерия в области ИТ" niveau="Инженерный диплом" diplome="Инженер-программист" domaine="Информатика">
+            <annee debut="2022" fin="2026" />
+            <ecole>Sup Galilée, Университет Сорбонна Пари Север</ecole>
+            <description>Разработка ПО, встроенные системы, сети, облачные технологии, кибербезопасность, групповые проекты</description>
+            <projets>
+                <projet>AppCompagnie — Система управления авиакомпанией (Angular, Spring Boot, MySQL)</projet>
+                <projet>ЭкоСистема — Симулятор эволюционных взаимодействий (Java)</projet>
+                <projet>MetroShortPath — Поиск кратчайшего пути (C, Дейкстра)</projet>
+            </projets>
+        </formation>
+        <formation intituleFormation="Подготовительные курсы MPSI–MP" niveau="Подготовительные классы" diplome="-" domaine="Математика и физика">
+            <annee debut="2019" fin="2022" />
+            <ecole>CPGE Ibn Ghazi, Рабат</ecole>
+            <description>Математика, физика, информатика, подготовка к поступлению в инженерные школы</description>
+        </formation>
+        <formation intituleFormation="Аттестат по математике B" niveau="Среднее образование" diplome="Bac SM B" domaine="Математика">
+            <annee debut="2018" fin="2019" />
+            <ecole>Лицей Ryad Al Maarifa, Рабат</ecole>
+            <description>Научное направление с уклоном в математику</description>
+        </formation>
+    </formations>
+    <competencesInfo>
+        <intituleComp nom="Языки программирования" list="C/C++, Python, Java, Matlab" />
+        <intituleComp nom="Веб-разработка" list="HTML5, Bootstrap, TypeScript, Angular" />
+        <intituleComp nom="Базы данных" list="MySQL, Oracle" />
+        <intituleComp nom="Операционные системы" list="Linux, Windows" />
+    </competencesInfo>
+    <competencesLogiciel>
+        <intituleComp type="Тестирование" list="TDD, BDD" />
+        <intituleComp type="DevOps" list="Docker, Kubernetes, Jenkins" />
+        <intituleComp type="Управление проектами" list="Agile, Gantt, Git, GitHub" />
+    </competencesLogiciel>
+    <langues>
+        <langue lg="Французский" niveau="Свободно" />
+        <langue lg="Английский" niveau="Средний" />
+        <langue lg="Арабский" niveau="Родной язык" />
+    </langues>
+    <centreDinterets>
+        <centreDinteret nom="Футбол" />
+        <centreDinteret nom="Формула Дрифт" />
+        <centreDinteret nom="Эйрсофт" />
+        <centreDinteret nom="Чтение (детективы, манга)" />
+    </centreDinterets>
+</CV>

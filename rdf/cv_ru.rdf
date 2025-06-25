@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:cv="http://rdfs.org/resume-rdf/">
+    <cv:CV>
+        <cv:summary>Хороший опыт в ИТ-сфере с навыками в объектно-ориентированных языках программирования, базах данных, веб-разработке и управлении проектами.</cv:summary>
+        <foaf:Person>
+            <foaf:name>Илиас Эр-Рашди</foaf:name>
+            <cv:hasContactInfo>
+                <cv:ContactInfo>
+                    <cv:address>улица Страсбург, 22, Эпине-сюр-Сен, 93800</cv:address>
+                    <cv:phone>0758193255</cv:phone>
+                    <cv:email>iliaserrachdi@gmail.com</cv:email>
+                </cv:ContactInfo>
+            </cv:hasContactInfo>
+            <cv:hasWorkHistory>
+                <cv:Position>
+                    <cv:employedIn>
+                        <cv:Organization>
+                            <foaf:name>Не указано</foaf:name>
+                        </cv:Organization>
+                    </cv:employedIn>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09</cv:startDate>
+                    <cv:positionTitle>Software Craftsman (стажировка)</cv:positionTitle>
+                    <cv:description>Разработка надёжных решений на Java и Angular, непрерывная интеграция с Jenkins, контейнеризация с Docker и оркестрация через Kubernetes.</cv:description>
+                </cv:Position>
+                <cv:Position>
+                    <cv:employedIn>
+                        <cv:Organization>
+                            <foaf:name>UNIVERSALISA – Марокко</foaf:name>
+                        </cv:Organization>
+                    </cv:employedIn>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07</cv:startDate>
+                    <cv:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08</cv:endDate>
+                    <cv:positionTitle>Разработчик</cv:positionTitle>
+                    <cv:description>Разработка новых функций бэкенда с использованием Spring Boot. Проведение тестирования для обеспечения соответствия.</cv:description>
+                </cv:Position>
+            </cv:hasWorkHistory>
+            <cv:hasEducation>
+                <cv:EducationEvent>
+                    <cv:degree>Диплом инженера по информатике</cv:degree>
+                    <cv:majorFieldOfStudy>Информатика</cv:majorFieldOfStudy>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022</cv:startDate>
+                    <cv:institution>
+                        <cv:Organization>
+                            <foaf:name>Sup Galilée, Университет Сорбонна Париж Север</foaf:name>
+                        </cv:Organization>
+                    </cv:institution>
+                </cv:EducationEvent>
+                <cv:EducationEvent>
+                    <cv:degree>Подготовительные курсы MPSI–MP</cv:degree>
+                    <cv:majorFieldOfStudy>Математика и физика</cv:majorFieldOfStudy>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019</cv:startDate>
+                    <cv:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022</cv:endDate>
+                    <cv:institution>
+                        <cv:Organization>
+                            <foaf:name>CPGE Ibn Ghazi, Рабат</foaf:name>
+                        </cv:Organization>
+                    </cv:institution>
+                </cv:EducationEvent>
+                <cv:EducationEvent>
+                    <cv:degree>Аттестат о среднем образовании по математике B</cv:degree>
+                    <cv:majorFieldOfStudy>Математика</cv:majorFieldOfStudy>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018</cv:startDate>
+                    <cv:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019</cv:endDate>
+                    <cv:institution>
+                        <cv:Organization>
+                            <foaf:name>Лицей Рияд Аль Маарифа, Рабат</foaf:name>
+                        </cv:Organization>
+                    </cv:institution>
+                </cv:EducationEvent>
+            </cv:hasEducation>
+            <cv:hasSkill>
+                <cv:Skill>C/C++, Python, Java, Matlab</cv:Skill>
+                <cv:Skill>HTML5, Bootstrap, TypeScript, Angular</cv:Skill>
+                <cv:Skill>MySQL, Oracle</cv:Skill>
+                <cv:Skill>Linux, Windows</cv:Skill>
+            </cv:hasSkill>
+            <cv:hasLanguage>
+                <cv:Language>Французский</cv:Language>
+                <cv:Language>Английский</cv:Language>
+                <cv:Language>Арабский</cv:Language>
+            </cv:hasLanguage>
+            <cv:hasInterest>
+                <cv:Interest>Футбол</cv:Interest>
+                <cv:Interest>Формула Дрифт</cv:Interest>
+                <cv:Interest>Эйрсофт</cv:Interest>
+                <cv:Interest>Чтение (детективы, манга)</cv:Interest>
+            </cv:hasInterest>
+        </foaf:Person>
+    </cv:CV>
+</rdf:RDF>

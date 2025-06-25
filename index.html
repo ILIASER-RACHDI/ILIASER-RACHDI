@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:schema="http://schema.org/" xml:lang="fr" typeof="schema:WebPage">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title property="schema:name">Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="alternate" type="application/rdf+xml" href="rdf/cv_fr.rdf" title="CV RDF" />
+</head>
+
+<body>
+    <div property="schema:header">
+        <h1 property="schema:headline">Bienvenue sur mon portfolio</h1>
+        <div property="schema:mainEntityOfPage" typeof="schema:SiteNavigationElement">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="resume.html">CV</a></li>
+                <li class="dropdown">
+                    <button class="dropbtn" id="selected-lang-btn">
+                        <img src="img/fr.svg" alt="Français" class="flag" />
+                    </button>
+                    <div class="dropdown-content">
+                        <button onclick="switchLanguage('fr')"><img src="img/fr.svg" alt="Français"
+                                class="flag" /></button>
+                        <button onclick="switchLanguage('en')"><img src="img/en.svg" alt="English"
+                                class="flag" /></button>
+                        <button onclick="switchLanguage('ru')"><img src="img/ru.svg" alt="Русский"
+                                class="flag" /></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div property="schema:mainContentOfPage">
+        <div typeof="schema:AboutPage">
+            <h2 property="schema:headline">Accueil</h2>
+            <p property="schema:text">Bienvenue sur mon portfolio personnel.</p>
+            <div id="video">
+                <object type="text/html"
+                    data="https://www.youtube.com/embed/erLbbextvlY?cc_lang_pref=fr&amp;cc_load_policy=1" width="800"
+                    height="600">
+                    <a href="https://www.youtube.com/embed/erLbbextvlY?cc_lang_pref=fr&amp;cc_load_policy=1">Video</a>
+                </object>
+            </div>
+        </div>
+    </div>
+    <div property="schema:footer">
+        <p>&copy; 2025 Ilias ER-RACHDI. Tous droits réservés.</p>
+        <div>
+            <p about="" resource="https://www.w3.org/TR/rdfa-syntax" rel="schema:conformsTo">
+                <a href="https://validator.w3.org/markup/check?uri=referer">
+                    <img src="https://www.w3.org/Icons/valid-xhtml-rdfa" alt="Valid XHTML + RDFa" height="31"
+                        width="88" />
+                </a>
+            </p>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+            </p>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

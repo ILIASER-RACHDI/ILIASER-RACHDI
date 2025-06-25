@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:cv="http://rdfs.org/resume-rdf/">
+    <cv:CV>
+        <cv:summary>Bonne expérience dans les services informatiques avec des compétences en langages orientés objet, bases de données, développement web et gestion de projet.</cv:summary>
+        <foaf:Person>
+            <foaf:name>Ilias Er-Rachdi</foaf:name>
+            <cv:hasContactInfo>
+                <cv:ContactInfo>
+                    <cv:address>22 rue de Strasbourg, Epinay-sur-Seine, 93800</cv:address>
+                    <cv:phone>0758193255</cv:phone>
+                    <cv:email>iliaserrachdi@gmail.com</cv:email>
+                </cv:ContactInfo>
+            </cv:hasContactInfo>
+            <cv:hasWorkHistory>
+                <cv:Position>
+                    <cv:employedIn>
+                        <cv:Organization>
+                            <foaf:name>Non spécifiée</foaf:name>
+                        </cv:Organization>
+                    </cv:employedIn>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09</cv:startDate>
+                    <cv:positionTitle>Software Craftsman (alternance)</cv:positionTitle>
+                    <cv:description>Développement de solutions robustes en Java et Angular, intégration continue avec Jenkins, conteneurisation avec Docker et orchestration via Kubernetes.</cv:description>
+                </cv:Position>
+                <cv:Position>
+                    <cv:employedIn>
+                        <cv:Organization>
+                            <foaf:name>UNIVERSALISA - Maroc</foaf:name>
+                        </cv:Organization>
+                    </cv:employedIn>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07</cv:startDate>
+                    <cv:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-08</cv:endDate>
+                    <cv:positionTitle>Développeur</cv:positionTitle>
+                    <cv:description>Développement de nouvelles fonctionnalités backend avec Spring Boot. Tests pour assurer la conformité.</cv:description>
+                </cv:Position>
+            </cv:hasWorkHistory>
+            <cv:hasEducation>
+                <cv:EducationEvent>
+                    <cv:degree>Diplôme d'ingénieur en informatique</cv:degree>
+                    <cv:majorFieldOfStudy>Informatique</cv:majorFieldOfStudy>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022</cv:startDate>
+                    <cv:institution>
+                        <cv:Organization>
+                            <foaf:name>Sup Galilée, Université Sorbonne Paris Nord</foaf:name>
+                        </cv:Organization>
+                    </cv:institution>
+                </cv:EducationEvent>
+                <cv:EducationEvent>
+                    <cv:degree>Classe préparatoire MPSI–MP</cv:degree>
+                    <cv:majorFieldOfStudy>Mathématiques et Physique</cv:majorFieldOfStudy>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019</cv:startDate>
+                    <cv:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022</cv:endDate>
+                    <cv:institution>
+                        <cv:Organization>
+                            <foaf:name>CPGE Ibn Ghazi, Rabat</foaf:name>
+                        </cv:Organization>
+                    </cv:institution>
+                </cv:EducationEvent>
+                <cv:EducationEvent>
+                    <cv:degree>Baccalauréat Sciences Mathématiques B</cv:degree>
+                    <cv:majorFieldOfStudy>Mathématiques</cv:majorFieldOfStudy>
+                    <cv:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018</cv:startDate>
+                    <cv:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019</cv:endDate>
+                    <cv:institution>
+                        <cv:Organization>
+                            <foaf:name>Lycée Ryad Al Maarifa, Rabat</foaf:name>
+                        </cv:Organization>
+                    </cv:institution>
+                </cv:EducationEvent>
+            </cv:hasEducation>
+            <cv:hasSkill>
+                <cv:Skill>C/C++, Python, Java, Matlab</cv:Skill>
+                <cv:Skill>HTML5, Bootstrap, TypeScript, Angular</cv:Skill>
+                <cv:Skill>MySQL, Oracle</cv:Skill>
+                <cv:Skill>Linux, Windows</cv:Skill>
+            </cv:hasSkill>
+            <cv:hasLanguage>
+                <cv:Language>Français</cv:Language>
+                <cv:Language>Anglais</cv:Language>
+                <cv:Language>Arabe</cv:Language>
+            </cv:hasLanguage>
+            <cv:hasInterest>
+                <cv:Interest>Football</cv:Interest>
+                <cv:Interest>Formula Drift</cv:Interest>
+                <cv:Interest>Airsoft</cv:Interest>
+                <cv:Interest>Lecture (romans policiers, mangas)</cv:Interest>
+            </cv:hasInterest>
+        </foaf:Person>
+    </cv:CV>
+</rdf:RDF>

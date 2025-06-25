@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+div[property="schema:header"] {
+    background-color: #333;
+    color: #fff;
+    padding-top: 10px;
+    border-bottom: #74b598 4px solid;
+}
+
+div[property="schema:header"] h1 {
+    margin: 0;
+    padding: 25px;
+    padding-bottom: 0;
+}
+
+div[property="schema:mainEntityOfPage"] {
+    margin-top: 15px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 5ex;
+}
+
+div[property="schema:mainEntityOfPage"] ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+div[property="schema:mainEntityOfPage"] ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+div[property="schema:mainEntityOfPage"] ul li a, div[property="schema:mainEntityOfPage"] ul li button {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+div[property="schema:mainEntityOfPage"] .dropdown {
+    display: inline-block;
+}
+
+div[property="schema:mainEntityOfPage"] .dropdown .dropbtn {
+    background-color: #444;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 0;
+}
+
+div[property="schema:mainEntityOfPage"] .dropdown .dropbtn .flag {
+    width: 24px;
+    height: 16px;
+}
+
+.flag {
+    width: 100%;
+    height: auto;
+}
+
+div[property="schema:mainEntityOfPage"] .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 56px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+div[property="schema:mainEntityOfPage"] .dropdown-content a {
+    color: black;
+    padding: 2px 6px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+div[property="schema:mainEntityOfPage"] .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+div[property="schema:mainEntityOfPage"] .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+div[property="schema:mainContentOfPage"] {
+    padding: 20px;
+    text-align: center;
+    margin-left: 20ex;
+    margin-right: 20ex;
+    flex: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.cv-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #aaa;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.etat-civil p, .experience .exp-item, .formations .formation-item, .competences-info div, .competences-logiciel div, .langues div, .centre-dinterets div,
+.personal-info p, .experience .exp-item, .education .education-item, .computer-skills div, .software-skills div, .languages div, .interests div,
+.stato-civile p, .esperienza .exp-item, .formazione .formazione-item, .competenze-info div, .competenze-software div, .lingue div, .interessi div {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #e0e0e0;
+    border: 1px solid #333;
+}
+
+div[property="schema:footer"] {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+}
+
+div[property="schema:footer"] p {
+    margin: 0;
+}
+
+div[property="schema:footer"] div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}

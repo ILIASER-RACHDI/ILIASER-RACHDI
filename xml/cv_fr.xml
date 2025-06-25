@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CV SYSTEM "../dtd/cv.dtd">
+<CV lang="fr">
+    <intitule>
+        <titre>Ingénieur informatique en alternance</titre>
+        <commentaire>Bonne expérience dans les services informatiques avec des compétences en langages orientés objet, bases de données, web et gestion de projet.</commentaire>
+    </intitule>
+    <etat_civil nom='ER-RACHDI' prenom='Ilias' dateNaissance='2001-07-16' age='23'>
+        <adresse numero="22" rue="rue de Strasbourg" ville="Epinay-sur-Seine" cp="93800"></adresse>
+        <telephone>0758193255</telephone>
+        <email>iliaserrachdi@gmail.com</email>
+        <permis titulaire='oui' type='B'></permis>
+    </etat_civil>
+    <expPro>
+        <exp dateDebut='09/2024'>
+            <poste>Software Craftsman (alternance)</poste>
+            <entreprise>Non spécifiée</entreprise>
+            <description>Développement de solutions robustes en Java et Angular, intégration continue avec Jenkins, conteneurisation avec Docker et orchestration via Kubernetes.</description>
+        </exp>
+        <exp dateDebut='07/2023' dateFin='08/2023'>
+            <poste>Développeur</poste>
+            <entreprise>UNIVERSALISA - Maroc</entreprise>
+            <description>Développement de nouvelles fonctionnalités backend avec Spring Boot. Tests pour assurer la conformité.</description>
+        </exp>
+    </expPro>
+    <formations>
+        <formation intituleFormation="Génie Informatique" niveau="Diplôme d'ingénieur" diplome="Ingénieur en informatique" domaine="Informatique">
+            <annee debut="2022" fin="2026" />
+            <ecole>Sup Galilée, Université Sorbonne Paris Nord</ecole>
+            <description>Développement logiciel, systèmes embarqués, réseaux, cloud computing, cybersécurité, projets de groupe</description>
+            <projets>
+                <projet>AppCompagnie — Système de gestion de compagnie aérienne (Angular, Spring Boot, MySQL)</projet>
+                <projet>Écosystème — Simulateur d’interactions évolutives (Java)</projet>
+                <projet>MetroShortPath — Calcul du plus court chemin (C, Dijkstra)</projet>
+            </projets>
+        </formation>
+        <formation intituleFormation="Prépa Scientifique MPSI–MP" niveau="Classe préparatoire" diplome="-" domaine="Mathématiques et Physique">
+            <annee debut="2019" fin="2022" />
+            <ecole>CPGE Ibn Ghazi, Rabat</ecole>
+            <description>Mathématiques, physique, informatique, préparation aux concours des grandes écoles</description>
+        </formation>
+        <formation intituleFormation="Baccalauréat Sciences Mathématiques B" niveau="Baccalauréat" diplome="Bac SM B" domaine="Mathématiques">
+            <annee debut="2018" fin="2019" />
+            <ecole>Lycée Ryad Al Maarifa, Rabat</ecole>
+            <description>Cursus scientifique avec spécialité en mathématiques</description>
+        </formation>
+    </formations>
+    <competencesInfo>
+        <intituleComp nom="Langages de programmation" list="C/C++, Python, Java, Matlab" />
+        <intituleComp nom="Développement Web" list="HTML5, Bootstrap, TypeScript, Angular" />
+        <intituleComp nom="Bases de données" list="MySQL, Oracle" />
+        <intituleComp nom="Systèmes d'exploitation" list="Linux, Windows" />
+    </competencesInfo>
+    <competencesLogiciel>
+        <intituleComp type="Tests" list="TDD, BDD" />
+        <intituleComp type="DevOps" list="Docker, Kubernetes, Jenkins" />
+        <intituleComp type="Gestion de projet" list="Agile, Gantt, Git, GitHub" />
+    </competencesLogiciel>
+    <langues>
+        <langue lg="Français" niveau="Courant" />
+        <langue lg="Anglais" niveau="Intermédiaire" />
+        <langue lg="Arabe" niveau="Langue maternelle" />
+    </langues>
+    <centreDinterets>
+        <centreDinteret nom="Football" />
+        <centreDinteret nom="Formula Drift" />
+        <centreDinteret nom="Airsoft" />
+        <centreDinteret nom="Lecture (romans policiers, mangas)" />
+    </centreDinterets>
+</CV>

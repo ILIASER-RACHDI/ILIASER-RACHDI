@@ -14,7 +14,7 @@
     <expPro>
         <exp dateDebut='09/2024'>
             <poste>Software Craftsman (alternance)</poste>
-            <entreprise>Non spécifiée</entreprise>
+            <entreprise>Societe Generale</entreprise>
             <description>Développement de solutions robustes en Java et Angular, intégration continue avec Jenkins, conteneurisation avec Docker et orchestration via Kubernetes.</description>
         </exp>
         <exp dateDebut='07/2023' dateFin='08/2023'>

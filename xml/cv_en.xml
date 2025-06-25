@@ -3,68 +3,63 @@
 <CV lang="en">
     <intitule>
         <titre>Apprentice Computer Engineer</titre>
-        <commentaire>Good experience in IT services with skills in object-oriented languages,
-            databases, web, and project management.</commentaire>
+        <commentaire>Solid experience in IT services with skills in object-oriented languages, databases, web development, and project management.</commentaire>
     </intitule>
     <etat_civil nom='ER-RACHDI' prenom='Ilias' dateNaissance='2001-07-16' age='23'>
         <adresse numero="22" rue="rue de Strasbourg" ville="Epinay-sur-Seine" cp="93800"></adresse>
         <telephone>0758193255</telephone>
         <email>iliaserrachdi@gmail.com</email>
-        <permis titulaire='oui' type='B'></permis>
+        <permis titulaire='yes' type='B'></permis>
     </etat_civil>
     <expPro>
-    <exp dateDebut='09/2024'>
-        <poste>Software Craftsman (alternance)</poste>
-        <entreprise>Non spécifiée</entreprise>
-        <description>Développement de solutions robustes en Java et Angular, intégration continue avec Jenkins, conteneurisation avec Docker et orchestration via Kubernetes.</description>
-    </exp>
-    <exp dateDebut='07/2023' dateFin='08/2023'>
-        <poste>Développeur</poste>
-        <entreprise>UNIVERSALISA - Maroc</entreprise>
-        <description>Développement de nouvelles fonctionnalités backend avec Spring Boot. Tests pour assurer la conformité.</description>
-    </exp>
+        <exp dateDebut='09/2024'>
+            <poste>Software Craftsman (apprenticeship)</poste>
+            <entreprise>Societe Generale</entreprise>
+            <description>Development of robust solutions using Java and Angular, continuous integration with Jenkins, containerization with Docker, and orchestration with Kubernetes.</description>
+        </exp>
+        <exp dateDebut='07/2023' dateFin='08/2023'>
+            <poste>Developer</poste>
+            <entreprise>UNIVERSALISA - Morocco</entreprise>
+            <description>Backend development of new features using Spring Boot. Testing to ensure compliance.</description>
+        </exp>
     </expPro>
-
     <formations>
-    <formation intituleFormation="Génie Informatique" niveau="Diplôme d'ingénieur" diplome="Ingénieur en informatique" domaine="Informatique">
-        <annee debut="2022" fin="2026" />
-        <ecole>Sup Galilée, Université Sorbonne Paris Nord</ecole>
-        <description>Développement logiciel, systèmes embarqués, réseaux, cloud computing, cybersécurité, projets de groupe</description>
-        <projets>
-            <projet>AppCompagnie — Système de gestion de compagnie aérienne (Angular, Spring Boot, MySQL)</projet>
-            <projet>Écosystème — Simulateur d’interactions évolutives (Java)</projet>
-            <projet>MetroShortPath — Calcul du plus court chemin (C, Dijkstra)</projet>
-        </projets>
-    </formation>
-    <formation intituleFormation="Prépa Scientifique MPSI–MP" niveau="Classe préparatoire" diplome="-" domaine="Mathématiques et Physique">
-        <annee debut="2019" fin="2022" />
-        <ecole>CPGE Ibn Ghazi, Rabat</ecole>
-        <description>Mathématiques, physique, informatique, préparation aux concours des grandes écoles</description>
-    </formation>
-    <formation intituleFormation="Baccalauréat Sciences Mathématiques B" niveau="Baccalauréat" diplome="Bac SM B" domaine="Mathématiques">
-        <annee debut="2018" fin="2019" />
-        <ecole>Lycée Ryad Al Maarifa, Rabat</ecole>
-        <description>Cursus scientifique avec spécialité en mathématiques</description>
-    </formation>
-</formations>
-
+        <formation intituleFormation="Computer Engineering" niveau="Engineering Degree" diplome="Computer Engineer" domaine="Computer Science">
+            <annee debut="2022" fin="2026" />
+            <ecole>Sup Galilée, Sorbonne Paris North University</ecole>
+            <description>Software development, embedded systems, networks, cloud computing, cybersecurity, group projects</description>
+            <projets>
+                <projet>AppCompagnie — Airline company management system (Angular, Spring Boot, MySQL)</projet>
+                <projet>Ecosystem — Evolutionary interaction simulator (Java)</projet>
+                <projet>MetroShortPath — Shortest path computation (C, Dijkstra)</projet>
+            </projets>
+        </formation>
+        <formation intituleFormation="Scientific Preparatory Class MPSI–MP" niveau="Preparatory Class" diplome="-" domaine="Mathematics and Physics">
+            <annee debut="2019" fin="2022" />
+            <ecole>CPGE Ibn Ghazi, Rabat</ecole>
+            <description>Mathematics, physics, computer science, preparation for competitive engineering school exams</description>
+        </formation>
+        <formation intituleFormation="Baccalaureate in Mathematical Sciences B" niveau="High School Diploma" diplome="Bac SM B" domaine="Mathematics">
+            <annee debut="2018" fin="2019" />
+            <ecole>Ryad Al Maarifa High School, Rabat</ecole>
+            <description>Scientific curriculum with specialization in mathematics</description>
+        </formation>
+    </formations>
     <competencesInfo>
-    <intituleComp nom="Programming Languages" list="C/C++, Python, Java, Matlab" />
-    <intituleComp nom="Web Development" list="HTML5, Bootstrap, TypeScript, Angular" />
-    <intituleComp nom="Databases" list="MySQL, Oracle" />
-    <intituleComp nom="Operating Systems" list="Linux, Windows" />
+        <intituleComp nom="Programming Languages" list="C/C++, Python, Java, Matlab" />
+        <intituleComp nom="Web Development" list="HTML5, Bootstrap, TypeScript, Angular" />
+        <intituleComp nom="Databases" list="MySQL, Oracle" />
+        <intituleComp nom="Operating Systems" list="Linux, Windows" />
     </competencesInfo>
-
     <competencesLogiciel>
-        <competencesLogiciel>
         <intituleComp type="Testing" list="TDD, BDD" />
         <intituleComp type="DevOps" list="Docker, Kubernetes, Jenkins" />
         <intituleComp type="Project Management" list="Agile, Gantt, Git, GitHub" />
     </competencesLogiciel>
     <langues>
-        <langue lg="Français" niveau="Courant" />
-        <langue lg="Anglais" niveau="Intermédiaire" />
-        <langue lg="Arabe" niveau="Langue maternelle" />    
+        <langue lg="French" niveau="Fluent" />
+        <langue lg="English" niveau="Intermediate" />
+        <langue lg="Arabic" niveau="Native speaker" />
     </langues>
     <centreDinterets>
         <centreDinteret nom="Football"></centreDinteret>
